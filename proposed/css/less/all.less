@@ -1,0 +1,91 @@
+@import 'bootstrap';
+
+// CUSTOM COLORS
+// --------------------------------------------------
+@navBarLinkColor: 	@black;
+@panelHeight: 200px;
+@panelContainer: 200px;
+/*//*/
+body {
+	padding-top: 60px;
+}
+
+.sqlfiddle-icon{
+	float: left;
+	margin: 0 5px 0 0;
+	padding: 3px 0;
+}
+.navbar .nav > li > a i{
+	margin-right: 5px;
+}
+.navbar .brand{
+	color: @navBarLinkColor;
+}
+.dropdown-menu a i{
+	margin-right: 5px;
+}
+.dropdown-toggle b.caret{
+	color: @grayLight;
+	opacity: .5;
+}
+#sidebar .well{
+	padding: 8px 0;
+}
+#content{
+	height: 100%
+}
+#content .panel:first-child{
+	margin: 0;
+}
+
+#content .panel{
+	min-height: @panelHeight;
+	height: 100%;
+	position: relative;
+}
+#content .panel form{
+	height: 100%
+}
+#content .panel form label{
+	height: auto;
+	margin: 0;
+	padding: 8px;
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	opacity: .5;
+}
+#content .panel form textarea{
+	display: block;
+/*	height: 97%;
+	width: 98%;*/
+	margin: 0;
+	padding: 4px;
+	resize: none;	
+}
+#output .panel{
+	margin: 0;
+	
+}
+#content .panel.schema{
+	margin: 0;
+}
+#output{
+	margin: 0;
+	height: 50%;
+	padding-top: 5px;
+}
+#content #output form label{
+	top: 10px;
+}
+#schema-output{
+	margin: 0;
+	height: 50%;
+	padding-bottom: 5px;
+}
+#content form{
+	margin: 0;
+}
+.tab-content .tab-pane{
+	height: 100%;
+}
