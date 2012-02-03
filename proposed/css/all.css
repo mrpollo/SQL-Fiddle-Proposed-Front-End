@@ -3400,7 +3400,7 @@ body {
   margin: 0;
 }
 #content .panel {
-  min-height: 200px;
+  min-height: 125px;
   height: 100%;
   position: relative;
 }
@@ -3449,4 +3449,29 @@ body {
 }
 .tab-content .tab-pane {
   height: 100%;
+}
+#content .CodeMirror {
+  border: 1px solid #cccccc;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+#content .CodeMirror-scroll {
+  height: auto;
+}
+#messages i {
+  margin-right: 5px;
+  opacity: .5;
+}
+#fiddleFormDDL {
+  position: relative;
+}
+#content .panel #fiddleFormDDL label {
+  z-index: 250;
+  /*	bottom: 5px;
+	top: auto;*/
+
+}
+#fiddleFormDDL label a i {
+  margin: 1px;
 }
